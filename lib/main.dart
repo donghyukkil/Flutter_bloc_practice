@@ -7,5 +7,5 @@ import 'counter_obsever.dart';
 void main() {
   Bloc.observer = const CounterObsever();
 
-  runApp(const CounterApp());
+  runApp(const TimerApp());
 }
